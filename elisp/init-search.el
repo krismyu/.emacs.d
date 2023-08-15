@@ -78,7 +78,7 @@
 
 ;; FFIPPac
 (use-package find-file-in-project
-  :if (executable-find "find")
+  :if (executable-find "gfind")
   :init
   (when (executable-find "fd")
     (setq ffip-use-rust-fd t))
